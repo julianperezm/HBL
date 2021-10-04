@@ -110,6 +110,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.movie{
+    width: 400px;
+    height: 300px;
+}
+
+.movie{
+    width: 1000px;
+    height: 900px;
+}
 @media (max-width: 1000px)  {
     .index{
         background: black;
@@ -208,5 +217,9 @@
         background: linear-gradient(to right, #47c1fa, #a4f85f);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    .movie{
+        width: 350px;
+        height: 200px;
     }
 }
