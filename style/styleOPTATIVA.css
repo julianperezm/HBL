@@ -1,6 +1,7 @@
 .index{
     background: black;
     min-height: 100rem;
+    padding-top: 20rem;
     align-items: center;
     
 }
@@ -38,7 +39,7 @@
 @media (max-width: 1000px)  {
     .index{
         background: black;
-        min-height: 40rem;
+        min-height: 35rem;
         padding-top: 10rem;
         align-items: center;
     }
