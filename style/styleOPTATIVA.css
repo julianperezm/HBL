@@ -3,8 +3,8 @@
     min-height: 100rem;
     padding-top: 20rem;
     align-items: center;
-    
 }
+
 .index h1{
     font-size: 15rem;
     letter-spacing: 0.1rem;
@@ -35,6 +35,80 @@
 .footer p{
     font-size: 0.4rem;
 }
+#mainNav {
+    background-color: rgba(128, 204, 255, 0.65);
+}
+
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: white;
+    border: 1px solid white;
+}
+
+#mainNav .navbar-toggler:focus {
+    outline: none;
+    color: white;
+}
+
+#mainNav .navbar-toggler:hover {
+    outline: none;
+    color: rgb(192, 192, 192);;
+}
+
+#mainNav .navbar-brand {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+#mainNav .navbar-brand:hover {
+    color: rgb(192, 192, 192);;
+}
+
+#mainNav .nav-link {
+    font-size: 12px;
+    color: white;
+}
+
+#mainNav .nav-link:hover {
+    font-size: 12px;
+    color: rgb(192, 192, 192);;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+    outline: none;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item {
+    padding: 0 2rem;
+}
+
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.HB{
+    background: white;
+    min-height: 100rem;
+    padding-top: 20rem;
+    align-items: center;
+}
+
+.HB h1{
+    font-size: 15rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #47c1fa, #a4f85f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 @media (max-width: 1000px)  {
     .index{
@@ -50,6 +124,88 @@
         color: white;
         text-align: center;
         background: linear-gradient(to right, #fa4747, #ff5252);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        background-color: rgba(128, 204, 255, 0.699);
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand {
+        padding: .5rem 0;
+        color: white;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #mainNav .navbar-brand:hover {
+        padding: .5rem 0;
+        color: rgb(192, 192, 192);
+    }
+
+    #mainNav .nav-link {
+        transition: none;
+        padding: 2rem 1.5rem;
+        font-size: 12px;
+        color: white;
+    }
+
+    #mainNav .nav-link:hover {
+        color: rgb(192, 192, 192);
+    }
+
+    #mainNav .nav-link:active {
+        color: white;
+    }
+
+    #mainNav.navbar-shrink {
+        background-color: rgba(0, 0, 0, 0.66);
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        color: white
+    }
+
+    #mainNav.navbar-shrink .navbar-brand:hover {
+        color: rgb(192, 192, 192);
+    }
+
+    #mainNav.navbar-shrink .nav-link {
+        color: white;
+        padding: 1.5rem 1.5rem 1.25rem;
+        border-bottom: 0.25rem solid transparent;
+    }
+
+    #mainNav.navbar-shrink .nav-link:hover {
+        color: rgb(192, 192, 192);
+    }
+
+    #mainNav.navbar-shrink .nav-link:active {
+        color: white;
+    }
+
+    #mainNav.navbar-shrink .nav-link.active {
+        color: white;
+        outline: none;
+    }
+
+    .HB{
+        background: white;
+        min-height: 35rem;
+        padding-top: 10rem;
+        align-items: center;
+    }
+    .HB h1{
+        font-size: 3.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #47c1fa, #a4f85f);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
