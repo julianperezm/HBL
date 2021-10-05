@@ -149,6 +149,40 @@
     -webkit-text-fill-color: transparent;
 }
 
+.Present{
+    background: url(../pexels-anete-lusina-6331083.jpg);
+    min-height: 100rem;
+    padding-top: 20rem;
+    align-items: center;
+    background-size: cover;
+}
+
+.Present h1{
+    padding: 1.5rem 0rem;
+    font-size: 15rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+.PresentOne{
+    background-color:rgb(235, 235, 235);
+}
+
+.PresentOne h1{
+    padding: 7rem 0rem;
+    font-size: 10rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #d639fd, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (max-width: 1000px)  {
     .index{
         background: black;
@@ -281,5 +315,38 @@
 
     .whatsnext p{
         color: white;
+    }
+
+    .Present{
+        background: url(../pexels-anete-lusina-6331083.jpg);
+        min-height: 40rem;
+        padding-top: 10rem;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .Present h1{
+        padding: 1.5rem 0rem;
+        font-size: 3.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+
+    PresentOne{
+        background-color:rgb(235, 235, 235);
+    }
+    
+    .PresentOne h1{
+        padding: 3rem 0rem;
+        font-size: 10rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #d639fd, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
