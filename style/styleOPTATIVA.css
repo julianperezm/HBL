@@ -33,7 +33,7 @@
 }
 
 .footer p{
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 }
 #mainNav {
     background-color: rgba(128, 204, 255, 0.65);
@@ -110,12 +110,43 @@
     -webkit-text-fill-color: transparent;
 }
 
+.VideoSection{
+    background-color: rgb(235, 235, 235);
+}
 
+.VideoSection h1{
+    font-size: 15rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #397efd, #c226ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .movie{
-    width: 1000px;
-    height: 900px;
+    width: 1300px;
+    height: 1000px;
+    padding-bottom: 2rem;
 }
+
+
+.whatsnext{
+    background-color: black;
+}
+
+.whatsnext h1{
+    font-size: 15rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #d639fd, #ff2626);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (max-width: 1000px)  {
     .index{
         background: black;
@@ -142,7 +173,7 @@
     }
 
     #mainNav .navbar-brand {
-        padding: .5rem 0;
+        padding: 1rem 0;
         color: white;
         justify-content: center;
         text-align: center;
@@ -155,7 +186,7 @@
 
     #mainNav .nav-link {
         transition: none;
-        padding: 2rem 1.5rem;
+        padding: 1.5rem 1.5rem;
         font-size: 12px;
         color: white;
     }
@@ -169,7 +200,7 @@
     }
 
     #mainNav.navbar-shrink {
-        background-color: rgba(0, 0, 0, 0.66);
+        background-color:rgba(128, 204, 255, 0.699);
     }
 
     #mainNav.navbar-shrink .navbar-brand {
@@ -215,8 +246,30 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    .VideoSection h1{
+        font-size: 3.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #397efd, #cd5ff8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .whatsnext h1{
+        font-size: 3.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #d639fd, #ff2626);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     .movie{
-        width: 350px;
-        height: 200px;
+        width: 400px;
+        height: 300px;
+        padding-bottom: 2rem;
     }
 }
