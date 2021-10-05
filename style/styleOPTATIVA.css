@@ -166,6 +166,26 @@
     text-align: center;
 }
 
+.f1starter{
+    background: url(../Eq9ed9qW4AIVESq.jpg);
+    min-height: 100rem;
+    padding-top: 20rem;
+    align-items: center;
+    background-size: cover;
+}
+
+.f1starter h1{
+    padding: 1.5rem 0rem;
+    font-size: 15rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.f1starter .f1logo{
+    width: 40rem;
+}
 
 .PresentOne{
     background-color:rgb(235, 235, 235);
@@ -334,7 +354,7 @@
         text-align: center;
     }
 
-    PresentOne{
+    .PresentOne{
         background-color:rgb(235, 235, 235);
     }
     
@@ -348,5 +368,26 @@
         background: linear-gradient(to right, #d639fd, #ffffff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    .f1starter{
+        background-image: url(../Eq9ed9qW4AIVESq-2.jpg);
+        min-height: 40rem;
+        padding-top: 10rem;
+        align-items: center;
+        background-size:cover;
+    }
+
+    .f1starter h1{
+        padding: 1.5rem 0rem;
+        font-size: 3.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+
+    .f1starter .f1logo{
+        width: 12.5rem;
     }
 }
