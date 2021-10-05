@@ -371,11 +371,11 @@
     }
 
     .f1starter{
-        background-image: url(../Eq9ed9qW4AIVESq-2.jpg);
+        background-image: url(../Eq9ed9qW4AIVESq.jpg);
         min-height: 40rem;
         padding-top: 10rem;
         align-items: center;
-        background-size:cover;
+        background-size:20%;
     }
 
     .f1starter h1{
