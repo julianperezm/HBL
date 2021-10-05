@@ -115,6 +115,7 @@
 }
 
 .VideoSection h1{
+    padding: 3rem 0rem;
     font-size: 15rem;
     letter-spacing: 0.1rem;
     font-weight: bold;
@@ -137,6 +138,7 @@
 }
 
 .whatsnext h1{
+    padding: 3rem 0rem;
     font-size: 15rem;
     letter-spacing: 0.1rem;
     font-weight: bold;
@@ -232,7 +234,7 @@
 
     .HB{
         background: white;
-        min-height: 35rem;
+        min-height: 40rem;
         padding-top: 10rem;
         align-items: center;
     }
@@ -248,6 +250,7 @@
     }
 
     .VideoSection h1{
+        padding: 1.5rem 0rem;
         font-size: 3.5rem;
         letter-spacing: 0.1rem;
         font-weight: bold;
@@ -257,7 +260,15 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    .movie{
+        width: 350px;
+        height: 250px;
+        padding-bottom: 2rem;
+    }
+
     .whatsnext h1{
+        padding: 1.5rem 0rem;
         font-size: 3.5rem;
         letter-spacing: 0.1rem;
         font-weight: bold;
@@ -266,10 +277,5 @@
         background: linear-gradient(to right, #d639fd, #ff2626);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    }
-    .movie{
-        width: 400px;
-        height: 300px;
-        padding-bottom: 2rem;
     }
 }
