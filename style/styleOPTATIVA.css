@@ -1,7 +1,7 @@
 .index{
     background: black;
-    min-height: 100rem;
-    padding-top: 20rem;
+    min-height: 80rem;
+    padding-top: 10rem;
     align-items: center;
 }
 
@@ -94,8 +94,8 @@
 
 .HB{
     background: white;
-    min-height: 100rem;
-    padding-top: 20rem;
+    min-height: 60rem;
+    padding-top: 10rem;
     align-items: center;
 }
 
@@ -149,10 +149,14 @@
     -webkit-text-fill-color: transparent;
 }
 
+.whatsnext p{
+color: white;
+}
+
 .Present{
     background: url(../pexels-anete-lusina-6331083.jpg);
-    min-height: 100rem;
-    padding-top: 20rem;
+    min-height: 60rem;
+    padding-top: 10rem;
     align-items: center;
     background-size: cover;
 }
@@ -168,15 +172,15 @@
 
 .f1starter{
     background: url(../Eq9ed9qW4AIVESq.jpg);
-    min-height: 100rem;
-    padding-top: 20rem;
+    min-height: 60rem;
+    padding-top: 10rem;
     align-items: center;
     background-size: cover;
 }
 
 .f1starter h1{
     padding: 1.5rem 0rem;
-    font-size: 15rem;
+    font-size: 10rem;
     letter-spacing: 0.1rem;
     font-weight: bold;
     color: red;
@@ -203,6 +207,91 @@
     -webkit-text-fill-color: transparent;
 }
 
+.Present4{
+    background-color:rgb(235, 235, 235);
+}
+
+.Present4 h1{
+    padding: 7rem 0rem;
+    font-size: 10rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #fd3939, #ff7878);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inPresent{
+    background-color:rgb(235, 235, 235);
+    padding: 7rem 0rem;
+}
+
+.inPresent h1{
+    font-size: 20rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #d639fd, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inPresent4page{
+    background-color:rgb(235, 235, 235);
+    padding: 7rem 0rem;
+}
+
+.inPresent4page h1{
+    font-size: 12rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #d639fd, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inPresent h4{
+    font-size: 1rem;
+    background: linear-gradient(to right, #d639fd, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inPresent a{
+    font-size: 0.8rem;
+}
+
+.inPresent4{
+    background-color:rgb(235, 235, 235);
+    padding: 7rem 0rem;
+}
+
+.inPresent4 h1{
+    font-size: 20rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #fd3939, #ff7878);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inPresent4 h4{
+    font-size: 1rem;
+    background: linear-gradient(to right, #fd3939, #ff7878);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inPresent4 a{
+    font-size: 0.8rem;
+}
 @media (max-width: 1000px)  {
     .index{
         background: black;
@@ -289,7 +378,7 @@
     .HB{
         background: white;
         min-height: 40rem;
-        padding-top: 10rem;
+        padding-top: 15rem;
         align-items: center;
     }
     .HB h1{
@@ -370,6 +459,50 @@
         -webkit-text-fill-color: transparent;
     }
 
+    .inPresent{
+        background-color:rgb(235, 235, 235);
+        padding: 11rem 0rem;
+    }
+    
+    .inPresent h1{
+        font-size: 14rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #d639fd, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .inPresent4page{
+        background-color:rgb(235, 235, 235);
+        padding: 11rem 0rem;
+    }
+    
+    .inPresent4page h1{
+        font-size: 6rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #d639fd, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .inPresent h4{
+        font-size: 1rem;
+        background: linear-gradient(to right, #d639fd, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .inPresent a{
+        font-size: 0.8rem;
+    }
+
+
     .f1starter{
         background-image: url(../Eq9ed9qW4AIVESq.jpg);
         min-height: 40rem;
@@ -389,5 +522,48 @@
 
     .f1starter .f1logo{
         width: 12.5rem;
+    }
+
+    .Present4{
+        background-color:rgb(235, 235, 235);
+    }
+    
+    .Present4 h1{
+        padding: 4rem 0rem;
+        font-size: 10rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #fd3939, #ff7878);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .inPresent4{
+        background-color:rgb(235, 235, 235);
+        padding: 11rem 0rem;
+    }
+    
+    .inPresent4 h1{
+        font-size: 14rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(to right, #fd3939, #ff7878);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .inPresent4 h4{
+        font-size: 1rem;
+        background: linear-gradient(to right, #fd3939, #ff7878);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .inPresent a{
+        font-size: 0.8rem;
     }
 }
