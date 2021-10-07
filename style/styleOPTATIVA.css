@@ -613,7 +613,7 @@ color: white;
     
     .present1{
         background-color: black;
-        padding: 10rem 0rem;
+        padding: 10rem 1rem;
     }
     
     .present1 h1{
@@ -626,7 +626,7 @@ color: white;
 
     .present2{
         background-color: black;
-        padding: 10rem 0rem;
+        padding: 10rem 1rem;
     }
     
     .present2 h1{
@@ -639,7 +639,7 @@ color: white;
 
     .present3{
         background-color: black;
-        padding: 15rem 0rem;
+        padding: 15rem 1rem;
     }
     
     .present3 h1{
@@ -651,7 +651,7 @@ color: white;
     }
 
     .photos{
-        width: 24rem;
-        height: 33rem;
+        width: 22rem;
+        height: 30rem;
     }
 }
