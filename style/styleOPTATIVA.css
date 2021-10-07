@@ -292,6 +292,50 @@ color: white;
 .inPresent4 a{
     font-size: 0.8rem;
 }
+
+.present1{
+    background-color: black;
+    padding: 10rem 0rem;
+}
+
+.present1 h1{
+    font-size: 12rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: rgb(241, 212, 173);
+    text-align: center;
+}
+
+.present2{
+    background-color: black;
+    padding: 10rem 0rem;
+}
+
+.present2 h1{
+    font-size: 12rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: White;
+    text-align: center;
+}
+
+.present3{
+    background-color: black;
+    padding: 10rem 0rem;
+}
+
+.present3 h1{
+    font-size: 12rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+}
+
+.photos{
+    width: 28.5rem;
+    height: 43rem;
+}
 @media (max-width: 1000px)  {
     .index{
         background: black;
@@ -565,5 +609,49 @@ color: white;
 
     .inPresent a{
         font-size: 0.8rem;
+    }
+    
+    .present1{
+        background-color: black;
+        padding: 10rem 0rem;
+    }
+    
+    .present1 h1{
+        font-size: 6rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: rgb(241, 212, 173);
+        text-align: center;
+    }
+
+    .present2{
+        background-color: black;
+        padding: 10rem 0rem;
+    }
+    
+    .present2 h1{
+        font-size: 6rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: White;
+        text-align: center;
+    }
+
+    .present3{
+        background-color: black;
+        padding: 15rem 0rem;
+    }
+    
+    .present3 h1{
+        font-size: 4rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: gold;
+        text-align: center;
+    }
+
+    .photos{
+        width: 24rem;
+        height: 33rem;
     }
 }
