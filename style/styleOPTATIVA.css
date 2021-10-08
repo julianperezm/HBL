@@ -444,7 +444,7 @@ color: white;
         min-height: 40rem;
         padding-top: 15rem;
         align-items: center;
-        background-size: cover;
+        background-size: 100%;
     }
     .HB h1{
         font-size: 3.5rem;
