@@ -99,7 +99,7 @@
 }
 
 .HB{
-    background:url(https://github.com/julianperezm/HBL/raw/master/style/Diseño%20sin%20t%C3%ADtulo.png);
+    background:url(./Diseñosintítulo.png);
     min-height: 175rem;
     padding-top: 30rem;
     align-items: center;
@@ -440,7 +440,7 @@ color: white;
     }
 
     .HB{
-        background:url(https://github.com/julianperezm/HBL/raw/master/style/Diseño%20sin%20t%C3%ADtulo.png);
+        background:url(./Diseñosintítulo.png);
         min-height: 40rem;
         padding-top: 15rem;
         align-items: center;
