@@ -30,11 +30,17 @@
 }
 .footer{
     background: rgb(175, 175, 175);
+    font-size: 0.6rem;
+    padding: 1rem 0rem;
 }
 
-.footer p{
-    font-size: 0.5rem;
+.backpresentpage{
+    padding: 1rem 0rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(192, 192, 192);
 }
+
 #mainNav {
     background-color: rgba(128, 204, 255, 0.65);
 }
@@ -335,6 +341,19 @@ color: white;
 .photos{
     width: 28.5rem;
     height: 43rem;
+}
+
+.presentf1{
+    background: linear-gradient(to right, #fd3939, #ff7878);
+    padding: 10rem 1rem;
+}
+
+.presentf1 h1{
+    font-size: 12rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: White;
+    text-align: center;
 }
 @media (max-width: 1000px)  {
     .index{
@@ -653,5 +672,17 @@ color: white;
     .photos{
         width: 22rem;
         height: 30rem;
+    }
+    .presentf1{
+        background: linear-gradient(to right, #fd3939, #ff7878);
+        padding: 10rem 1rem;
+    }
+    
+    .presentf1 h1{
+        font-size: 4rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        color: White;
+        text-align: center;
     }
 }
