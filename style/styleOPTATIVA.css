@@ -99,10 +99,11 @@
 }
 
 .HB{
-    background: white;
-    min-height: 60rem;
-    padding-top: 10rem;
+    background:url(./Diseño\ sin\ título.png);
+    min-height: 175rem;
+    padding-top: 30rem;
     align-items: center;
+    background-size: 100%;
 }
 
 .HB h1{
@@ -439,10 +440,11 @@ color: white;
     }
 
     .HB{
-        background: white;
+        background:url(./Diseño\ sin\ título.png);
         min-height: 40rem;
         padding-top: 15rem;
         align-items: center;
+        background-size: cover;
     }
     .HB h1{
         font-size: 3.5rem;
